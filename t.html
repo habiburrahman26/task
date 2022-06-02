@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <!-- from -->
+        <div class="row gap-4">
+          <aside class="col filter-from border p-4">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Filters</h3>
+              <p class="text-warning">clear off(2)</p>
+            </div>
+            <form class="d-flex flex-column gap-3">
+              <div>
+                <label class="fs-6">Date</label>
+                <input
+                  class="form-control form-control-sm"
+                  type="date"
+                  placeholder=""
+                />
+              </div>
+              <div>
+                <label for="">Class</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Subject</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="math">Math</option>
+                  <option value="english">English</option>
+                  <option value="ict">ICT</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Gender</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Age</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="4-6">4-6</option>
+                  <option value="6-8">6-8</option>
+                  <option value="8-10">8-10</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Country</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="India">India</option>
+                  <option value="Nepal">Nepal</option>
+                </select>
+              </div>
+              <div>
+                <label for="">State</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div>
+                <label for="">City</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="dhaka">Dhaka</option>
+                  <option value="delhi">Delhi</option>
+                  <option value="Kathmandu">Kathmandu</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Block</label>
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Select</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </form>
+          </aside>
+          <aside class="col mt-2">
+            <div class="row">
+              <div class="col col-sm-3">
+                <div class="card mb-3" style="width: 15rem">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="title">Total Users</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                        />
+                      </svg>
+                    </div>
+                    <h3>13,675</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-sm-3">
+                <div class="card mb-3" style="width: 15rem">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="title">Course Avaliable</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                        />
+                      </svg>
+                    </div>
+                    <h3>1,986</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-sm-3">
+                <div class="card mb-3" style="width: 15rem">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="title">Course Enrolled</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                        />
+                      </svg>
+                    </div>
+                    <h3>890</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-sm-3">
+                <div class="card mb-3" style="width: 15rem">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <p class="title">Course Completed</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </div>
+                    <h3>700</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

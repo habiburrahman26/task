@@ -1,0 +1,22 @@
+.filter-from {
+  width: 250px;
+}
+.bg-gray {
+  background-color: #f8f9fa;
+}
+
+.title {
+  color: #74c0fc;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #74c0fc;
+}
+
+@media (max-width: 575px) {
+  .filter-from {
+    margin: 0 auto;
+  }
+}
